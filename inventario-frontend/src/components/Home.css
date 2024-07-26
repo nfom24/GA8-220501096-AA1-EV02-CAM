@@ -1,0 +1,60 @@
+/* src/components/Home.css */
+body {
+    background-color: #f8f9fa;
+    background-image: url("../images/Fondo01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container h1 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    animation: fadeIn 3s ease;
+}
+
+footer {
+    background-color: #0b0c0c;
+    color: #ffffff;
+    padding: 10px 0;    
+    text-align: center;    
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
